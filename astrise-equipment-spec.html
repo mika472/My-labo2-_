@@ -1,0 +1,285 @@
+<title>AGENTORY 導入設備仕様書</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+  :root {
+    --desk: #e9e6e0;
+    --paper: #ffffff;
+    --ink: #14110f;
+    --ink-soft: #3d3936;
+    --ink-mute: #6b6560;
+    --rule: #cfcac4;
+    --rule-soft: #e4e0da;
+    --bar: #101010;
+    --bar-ink: #ffffff;
+    --accent: #b81c26;
+    --zebra: #f7f5f2;
+    --flag-bg: #fdf3d6;
+    --flag-ink: #7a5a00;
+    --font-jp: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --desk: #1c1a18; }
+  }
+  :root[data-theme="dark"] { --desk: #1c1a18; }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--desk);
+    color: var(--ink);
+    font-family: var(--font-jp);
+    font-size: 13px;
+    line-height: 1.75;
+    padding: 28px 16px 60px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sheet {
+    background: var(--paper);
+    color: var(--ink);
+    width: 210mm;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 18mm 16mm 16mm;
+    box-shadow: 0 1px 2px rgba(0,0,0,.12), 0 12px 32px rgba(0,0,0,.14);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  /* ---- title ---- */
+  .masthead { text-align: center; display: flex; flex-direction: column; gap: 10px; }
+  .masthead h1 {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .42em;
+    text-indent: .42em;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  .masthead .rule {
+    height: 3px;
+    background: var(--accent);
+    width: 100%;
+  }
+  .masthead .sub {
+    font-size: 12px;
+    color: var(--ink-mute);
+    letter-spacing: .06em;
+  }
+
+  /* ---- meta line ---- */
+  .meta {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 2px 12px;
+    justify-content: end;
+    font-size: 12px;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+  .meta dt { color: var(--ink-mute); }
+
+  /* ---- parties ---- */
+  .parties {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    align-items: start;
+  }
+  @media (max-width: 680px) { .parties { grid-template-columns: 1fr; gap: 20px; } }
+
+  .to-name {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .to-addr {
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    margin-top: 6px;
+    font-variant-numeric: tabular-nums;
+  }
+  .to-note {
+    margin-top: 12px;
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    line-height: 1.9;
+  }
+
+  .from { display: flex; flex-direction: column; gap: 4px; }
+  .from .mark {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 7px;
+    margin-bottom: 6px;
+  }
+  .from .mark .dot {
+    width: 11px; height: 11px; border-radius: 50%;
+    background: var(--accent);
+    transform: translateY(-1px);
+  }
+  .from .mark .wordmark {
+    font-size: 17px; font-weight: 700; letter-spacing: -.01em;
+  }
+  .from .name { font-size: 16px; font-weight: 700; letter-spacing: .02em; }
+  .from .line { font-size: 11.5px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+
+  .flag {
+    background: var(--flag-bg);
+    color: var(--flag-ink);
+    font-size: 10.5px;
+    font-weight: 500;
+    padding: 0 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+  }
+
+  /* ---- sections ---- */
+  .section { display: flex; flex-direction: column; gap: 10px; }
+  .section > h2 {
+    background: var(--bar);
+    color: var(--bar-ink);
+    font-size: 13.5px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    padding: 5px 12px;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+  }
+  .section > h2 .n { font-variant-numeric: tabular-nums; }
+  .section p { font-size: 12.5px; line-height: 1.95; }
+
+  /* ---- table ---- */
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 11.5px; }
+  th, td {
+    border: 1px solid var(--rule);
+    padding: 8px 9px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.7;
+  }
+  thead th {
+    background: var(--bar);
+    color: var(--bar-ink);
+    border-color: var(--bar);
+    font-weight: 700;
+    letter-spacing: .04em;
+    white-space: nowrap;
+  }
+  tbody tr:nth-child(even) { background: var(--zebra); }
+  td.qty { text-align: center; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td.cat { white-space: nowrap; font-weight: 500; }
+
+  .footnote {
+    font-size: 10.5px;
+    color: var(--ink-mute);
+    line-height: 1.9;
+  }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .sheet { box-shadow: none; width: auto; padding: 0; }
+    @page { size: A4; margin: 14mm; }
+  }
+</style>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <h1>導入設備仕様書</h1>
+    <div class="rule"></div>
+    <div class="sub">マルチAIエージェントプラットフォーム「AGENTORY」</div>
+  </header>
+
+  <dl class="meta">
+    <dt>文書番号</dt><dd>MG-2026-0821-002-S</dd>
+    <dt>発行日</dt><dd>令和8年8月21日</dd>
+    <dt>関連見積</dt><dd>MG-2026-0821-002</dd>
+  </dl>
+
+  <div class="parties">
+    <div class="to">
+      <div class="to-name">株式会社アストライズ　御中</div>
+      <div class="to-addr">〒330-0854　埼玉県さいたま市大宮区桜木町1-321-1　アストライズ桜木町ビル<br>TEL：048-711-5576</div>
+      <p class="to-note">本書は、御見積書（MG-2026-0821-002）に記載した導入設備の仕様・構成・作業範囲・導入効果を示すものです。「第3回さいたま市事業者向け設備導入応援補助金（物価高騰対応）」の交付申請及び補助事業完了報告の添付資料としてご利用いただけます。</p>
+    </div>
+
+    <div class="from">
+      <div class="mark"><span class="dot"></span><span class="wordmark">Milee Growth</span></div>
+      <div class="name">株式会社Milee Growth</div>
+      <div class="line">代表取締役　藤田美佳</div>
+      <div class="line">〒105-0004　東京都港区新橋1-12-9　新橋プレイス802</div>
+      <div class="line">TEL：<span class="flag">要記入</span>　／　URL：<span class="flag">要記入</span></div>
+    </div>
+  </div>
+
+  <section class="section">
+    <h2><span class="n">1.</span>導入の目的</h2>
+    <p>人手不足及びエネルギー・物価上昇に伴うコスト増加への対応として、これまで人手で行っていた調整業務（配車・シフト・承認・例外処理・請求・顧客連絡・データ突合）を、複数のAIエージェントが並列で自動処理する専用システムを自社事業所に導入し、省人化・省力化・業務効率化を図る。</p>
+    <p>本設備は汎用の事務機器ではなく、貴社の業務プロセスに直接組み込まれる専用システムであり、業務フローそのものを変革することを目的とする。</p>
+  </section>
+
+  <section class="section">
+    <h2><span class="n">2.</span>導入設備一覧</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>区分</th><th>名称</th><th>メーカー／提供者</th><th>型式・版数</th><th>数量</th><th>設置場所</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cat">設備費</td>
+            <td>AIエージェント実行専用サーバ</td>
+            <td>NVIDIA</td>
+            <td>DGX Spark（GB10）</td>
+            <td class="qty">2台</td>
+            <td>さいたま市大宮区桜木町1-321-1　アストライズ桜木町ビル　サーバ室</td>
+          </tr>
+          <tr>
+            <td class="cat">設備費</td>
+            <td>マルチAIエージェントプラットフォーム「AGENTORY」</td>
+            <td>株式会社Milee&nbsp;Growth</td>
+            <td>AGENTORY On-Premise Ed. v3（買切・永続使用許諾）</td>
+            <td class="qty">1式</td>
+            <td>同上（上記サーバ内に導入）</td>
+          </tr>
+          <tr>
+            <td class="cat">設備費</td>
+            <td>システム構築（初期導入）</td>
+            <td>株式会社Milee&nbsp;Growth</td>
+            <td>―（役務・一時費用）</td>
+            <td class="qty">1式</td>
+            <td>同上</td>
+          </tr>
+          <tr>
+            <td class="cat">工事費</td>
+            <td>据付・配線・既存システム接続工事</td>
+            <td>株式会社Milee&nbsp;Growth</td>
+            <td>―</td>
+            <td class="qty">1式</td>
+            <td>同上</td>
+          </tr>
+          <tr>
+            <td class="cat">技術導入費</td>
+            <td>外部技術指導（操作指導・立上げ支援）</td>
+            <td>株式会社Milee&nbsp;Growth</td>
+            <td>全8回（1回2時間）</td>
+            <td class="qty">8回</td>
+            <td>同上</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="footnote">※型式は納品時のメーカー正式型番に準じます。完了報告時には、納品明細書・請求書（型番・台数・工事費の内訳を記載）、設置済み写真、メーカー名及び製品型番が明記された写真、仕様がわかる資料を当社よりご提供します。</p>
+  </section>
+
+</div>
