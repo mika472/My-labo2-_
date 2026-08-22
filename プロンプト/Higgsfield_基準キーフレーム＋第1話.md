@@ -19,31 +19,31 @@ low quality, blurry face, distorted hands, extra fingers, duplicate person, inco
 
 # ステップ1：基準キーフレーム 10枚（静止画）
 
-## KF-01｜47歳・現在・正面
+## KF-01｜52歳・現在・正面
 
 ```
-Character reference, front view. A 47-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, elegant low chignon with a few loose strands, fine laugh lines, calm confident gaze, refined natural makeup, deep-navy silk long-sleeve dress with subtle sheen, small pearl earrings. Standing in a dimly lit Ginza hostess club before opening, warm amber practical lights, mahogany walls softly out of focus behind her. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
+Character reference, front view. A 52-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, elegant low chignon with a few loose strands, fine laugh lines, calm confident gaze, refined natural makeup, deep-navy silk long-sleeve dress with subtle sheen, small pearl earrings. Standing in a dimly lit Ginza hostess club before opening, warm amber practical lights, mahogany walls softly out of focus behind her. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
 ```
 
-## KF-02｜47歳・現在・3/4アングル
+## KF-02｜52歳・現在・3/4アングル
 
 ```
-Character reference, three-quarter view, head turned slightly to camera left. A 47-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, elegant low chignon with a few loose strands, fine laugh lines, refined natural makeup, deep-navy silk long-sleeve dress with subtle sheen, small pearl earrings. Dimly lit Ginza hostess club, warm amber key light from the left. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
+Character reference, three-quarter view, head turned slightly to camera left. A 52-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, elegant low chignon with a few loose strands, fine laugh lines, refined natural makeup, deep-navy silk long-sleeve dress with subtle sheen, small pearl earrings. Dimly lit Ginza hostess club, warm amber key light from the left. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
 ```
 
-## KF-03｜47歳・現在・横顔
+## KF-03｜52歳・現在・横顔
 
 ```
-Character reference, profile view. A 47-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes, small mouth, fair skin, elegant low chignon with a few loose strands, fine laugh lines, refined natural makeup, deep-navy silk long-sleeve dress. Dimly lit Ginza hostess club, warm rim light from behind, dark background. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
+Character reference, profile view. A 52-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes, small mouth, fair skin, elegant low chignon with a few loose strands, fine laugh lines, refined natural makeup, deep-navy silk long-sleeve dress. Dimly lit Ginza hostess club, warm rim light from behind, dark background. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
 ```
 
-## KF-04｜8歳（1983年）
+## KF-04｜8歳（1982年）
 
 ```
-An 8-year-old Japanese girl, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, black bob with straight blunt bangs, thin frame, wearing a faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a 1980s Japanese danchi apartment, sliding paper screen door, old bookshelf, late afternoon sunlight slanting through the window, dust floating in the air. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
+An 8-year-old Japanese girl, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, black bob with straight blunt bangs, thin frame, wearing a faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a 1982 Japanese danchi apartment, sliding paper screen door, old bookshelf, late afternoon sunlight slanting through the window, dust floating in the air. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
 ```
 
-## KF-05｜13歳（1988年）
+## KF-05｜13歳（1987年）
 
 ```
 A 13-year-old Japanese girl, the same face as the 8-year-old reference: soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin. Black hair in a low ponytail, navy sailor-collar school uniform, slightly harder and more closed-off expression. Sitting at the same wooden study desk in the same six-tatami danchi room, dusk light, the room slightly emptier than before. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
@@ -87,7 +87,7 @@ A 40-year-old Japanese woman, the same face: soft oval face, straight nose, doub
 
 画像
 ```
-A 47-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes, elegant low chignon, deep-navy silk long-sleeve dress, standing on a narrow Ginza back street at night, seen from behind her shoulder, looking up at a slim three-storey building whose small sign has just lit up. Wet asphalt reflecting amber and white signage, closed shutters on both sides, no crowd. Low angle. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
+A 52-year-old Japanese woman, soft oval face, straight nose, double eyelids, warm dark-brown eyes, elegant low chignon, deep-navy silk long-sleeve dress, standing on a narrow Ginza back street at night, seen from behind her shoulder, looking up at a slim three-storey building whose small sign has just lit up. Wet asphalt reflecting amber and white signage, closed shutters on both sides, no crowd. Low angle. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
 ```
 
 動画（3秒）
@@ -111,7 +111,7 @@ Medium shot, slow lateral dolly to the right past the line of staff. She nods on
 
 画像
 ```
-Close-up of the same 47-year-old Japanese woman's face, three-quarter view, soft oval face, double eyelids, warm dark-brown eyes, fine laugh lines, elegant low chignon. Warm amber club light from the left, dark background. Eyes still, a faint smile just beginning to fade. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
+Close-up of the same 52-year-old Japanese woman's face, three-quarter view, soft oval face, double eyelids, warm dark-brown eyes, fine laugh lines, elegant low chignon. Warm amber club light from the left, dark background. Eyes still, a faint smile just beginning to fade. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
 ```
 
 動画（4秒）
@@ -125,7 +125,7 @@ Slow push-in to a medium close-up. Her smile fades. She lowers her eyes once, th
 
 画像
 ```
-An 8-year-old Japanese girl, the same face as the adult reference: soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin. Black bob with straight blunt bangs, faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a 1980s Japanese danchi apartment, late afternoon sunlight slanting through the window, dust floating in the air. Close-up, three-quarter view, the head occupying the same portion of the frame as the previous adult close-up. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
+An 8-year-old Japanese girl, the same face as the adult reference: soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin. Black bob with straight blunt bangs, faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a 1982 Japanese danchi apartment, late afternoon sunlight slanting through the window, dust floating in the air. Close-up, three-quarter view, the head occupying the same portion of the frame as the previous adult close-up. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
 ```
 
 動画（6秒）
@@ -137,7 +137,7 @@ The girl slowly lifts her eyes toward the camera. The late afternoon light shift
 
 画像
 ```
-Close-up of a small child's hand pulling open the drawer of a 1980s Japanese wooden study desk. Inside the drawer, a folded sheet of writing paper lies among erasers, a pencil case and a plastic ruler. Warm late-afternoon light from the left. The writing on the paper is not legible. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
+Close-up of a small child's hand pulling open the drawer of a 1982 Japanese wooden study desk. Inside the drawer, a folded sheet of writing paper lies among erasers, a pencil case and a plastic ruler. Warm late-afternoon light from the left. The writing on the paper is not legible. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
 ```
 
 動画（7秒）
@@ -175,8 +175,8 @@ She turns her head toward the door and holds still. A red light sweeps slowly ac
 
 | 秒 | ナレーション | テロップ |
 |---|---|---|
-| 0–3 | 銀座で23年。ビルを一棟持ち、七つの事業を経営する女性がいる。 | 銀座23年／一棟のビル、七つの事業 |
-| 3–7 | 47歳。彼女を成功者と呼ぶ人は、多い。 | 47歳。成功者と呼ばれる |
+| 0–3 | 銀座で23年。ビルを一棟持ち、七つの事業を経営する女性がいる。 | 銀座28年／一棟のビル、七つの事業 |
+| 3–7 | 52歳。彼女を成功者と呼ぶ人は、多い。 | 52歳。成功者と呼ばれる |
 | 7–11 | けれど彼女は、そう呼ばれるたびに、あるものを思い出すという。 | けれど、彼女は |
 | 11–17 | 昭和の団地の、六畳の子ども部屋。／小学2年生だった彼女が、学習机の引き出しに入れていたもの。 | 8歳 |
 | 17–24 | 自分で書いた、遺書だった。／彼女はときどきそれを書き直しては、また引き出しにしまっていた。 | 遺書 |
