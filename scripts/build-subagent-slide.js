@@ -1,17 +1,19 @@
 const pptxgen = require('pptxgenjs');
 
 const C = {
-  bg:      '13294C',
-  zone:    '17305A',
-  zoneLn:  '2B4C82',
-  cardMain:'24365C',
-  cardSub: '1B395A',
-  orange:  'F26430',
-  orangeS: 'FFB27A',
-  cyan:    '5FC6D8',
-  paper:   'EEF4FA',
-  muted:   'B9C7DA',
-  faint:   '5E7BA8',
+  bg:      'FFFFFF',
+  zone:    'F6F8FB',
+  zoneLn:  'DDE5EF',
+  cardMain:'FFF3EC',
+  cardSub: 'F0F8FB',
+  orange:  'D9531E',
+  orangeS: 'B8481B',
+  teal:    '0E7A90',
+  tealLn:  '6FB3C4',
+  ink:     '10294D',
+  body:    '44566F',
+  muted:   '6B7D95',
+  faint:   'A9B6C7',
 };
 const JP = 'Yu Gothic';
 const UI = 'Arial';
@@ -30,7 +32,7 @@ s.addText('HOW IT WORKS', {
   fontFace: UI, fontSize: 10, bold: true, charSpacing: 3, color: C.orangeS,
 });
 s.addText([
-  { text: 'サブエージェント', options: { color: C.paper } },
+  { text: 'サブエージェント', options: { color: C.ink } },
   { text: 'の仕組み',        options: { color: C.orange } },
 ], {
   x: 0.55, y: 0.60, w: 6.7, h: 0.72, margin: 0,
@@ -49,7 +51,7 @@ s.addText([
   { text: 'を受け取る仕組み。' },
 ], {
   x: 7.35, y: 0.76, w: 5.43, h: 0.60, margin: 0,
-  fontFace: JP, fontSize: 12, color: C.paper, lineSpacingMultiple: 1.35,
+  fontFace: JP, fontSize: 12, color: C.body, lineSpacingMultiple: 1.35,
 });
 
 /* ------------------------------------------------------------ three zones */
@@ -66,7 +68,7 @@ zones.forEach(z => {
   });
   s.addText([
     { text: z.n, options: { fontFace: UI, color: C.orange, bold: true } },
-    { text: '   ' + z.t, options: { fontFace: JP, color: C.paper, bold: true } },
+    { text: '   ' + z.t, options: { fontFace: JP, color: C.ink, bold: true } },
   ], { x: z.x + 0.22, y: 1.72, w: z.w - 0.4, h: 0.26, margin: 0, fontSize: 12, valign: 'middle' });
 });
 
@@ -75,15 +77,15 @@ const CY = 3.345;                         // shared centre line for every node
 /* ------------------------------------------------ 01 : you -> the main AI */
 s.addShape(pres.ShapeType.roundRect, {
   x: 0.80, y: CY - 0.40, w: 1.10, h: 0.80, rectRadius: 0.06,
-  fill: { color: '1D3563' }, line: { color: '7E9BC4', width: 1 },
+  fill: { color: 'FFFFFF' }, line: { color: 'B9C7D9', width: 1.25 },
 });
 s.addText('あなた', {
   x: 0.80, y: CY - 0.40, w: 1.10, h: 0.80, margin: 0,
-  fontFace: JP, fontSize: 12, bold: true, color: C.paper, align: 'center', valign: 'middle',
+  fontFace: JP, fontSize: 12, bold: true, color: C.ink, align: 'center', valign: 'middle',
 });
 s.addShape(pres.ShapeType.line, {
   x: 1.98, y: CY, w: 0.28, h: 0,
-  line: { color: C.paper, width: 1.5, endArrowType: 'triangle' },
+  line: { color: '8A9BB0', width: 1.5, endArrowType: 'triangle' },
 });
 
 s.addShape(pres.ShapeType.roundRect, {
@@ -92,7 +94,7 @@ s.addShape(pres.ShapeType.roundRect, {
 });
 s.addText('メインAI', {
   x: 2.30, y: CY - 0.55, w: 1.75, h: 0.30, margin: 0,
-  fontFace: JP, fontSize: 16, bold: true, color: C.paper, align: 'center',
+  fontFace: JP, fontSize: 16, bold: true, color: C.ink, align: 'center',
 });
 s.addText('＝ 司令塔', {
   x: 2.30, y: CY - 0.23, w: 1.75, h: 0.22, margin: 0,
@@ -128,19 +130,19 @@ subs.forEach(a => {
 subs.forEach(a => {
   s.addShape(pres.ShapeType.roundRect, {
     x: CARD_X, y: a.cy - CARD_H / 2, w: CARD_W, h: CARD_H, rectRadius: 0.06,
-    fill: { color: C.cardSub }, line: { color: C.cyan, width: 1.25 },
+    fill: { color: C.cardSub }, line: { color: C.tealLn, width: 1.5 },
   });
   s.addShape(pres.ShapeType.ellipse, {
     x: CARD_X + 0.12, y: a.cy - 0.21, w: 0.42, h: 0.42,
-    fill: { color: '235071' }, line: { color: C.cyan, width: 1.25 },
+    fill: { color: 'E4F2F6' }, line: { color: C.tealLn, width: 1.25 },
   });
   s.addText(a.badge, {
     x: CARD_X + 0.12, y: a.cy - 0.21, w: 0.42, h: 0.42, margin: 0,
-    fontFace: JP, fontSize: 12, bold: true, color: C.cyan, align: 'center', valign: 'middle',
+    fontFace: JP, fontSize: 12, bold: true, color: C.teal, align: 'center', valign: 'middle',
   });
   s.addText(a.name, {
     x: CARD_X + 0.67, y: a.cy - 0.32, w: 2.30, h: 0.24, margin: 0,
-    fontFace: JP, fontSize: 12, bold: true, color: C.paper, valign: 'middle',
+    fontFace: JP, fontSize: 12, bold: true, color: C.ink, valign: 'middle',
   });
   s.addText(a.sub, {
     x: CARD_X + 0.67, y: a.cy - 0.09, w: 2.30, h: 0.20, margin: 0,
@@ -148,17 +150,17 @@ subs.forEach(a => {
   });
   s.addShape(pres.ShapeType.roundRect, {
     x: CARD_X + 0.67, y: a.cy + 0.12, w: 2.22, h: 0.21, rectRadius: 0.04,
-    fill: { type: 'none' }, line: { color: C.cyan, width: 0.75, dashType: 'dash' },
+    fill: { type: 'none' }, line: { color: C.tealLn, width: 0.75, dashType: 'dash' },
   });
   s.addText('専用の作業机（メモは持ち帰らない）', {
     x: CARD_X + 0.67, y: a.cy + 0.12, w: 2.22, h: 0.21, margin: 0,
-    fontFace: JP, fontSize: 8, color: C.cyan, align: 'center', valign: 'middle',
+    fontFace: JP, fontSize: 8, color: C.teal, align: 'center', valign: 'middle',
   });
 });
 
 s.addText('3体が同時に動く ＝ 待ち時間が短い', {
   x: 4.30, y: 4.66, w: 4.75, h: 0.25, margin: 0,
-  fontFace: JP, fontSize: 10, bold: true, color: C.cyan, align: 'center', valign: 'middle',
+  fontFace: JP, fontSize: 10, bold: true, color: C.teal, align: 'center', valign: 'middle',
 });
 
 /* ------------------------------------- 03 : only the summaries come back */
@@ -168,7 +170,7 @@ subs.forEach(a => {
   s.addShape(pres.ShapeType.line, {
     x: CARD_X + CARD_W, y: Math.min(CY, a.cy), w: ANS_X - (CARD_X + CARD_W), h: Math.abs(dy),
     flipV: dy < 0,
-    line: { color: C.cyan, width: 2, endArrowType: 'triangle' },
+    line: { color: C.teal, width: 2, endArrowType: 'triangle' },
   });
 });
 
@@ -178,7 +180,7 @@ s.addShape(pres.ShapeType.roundRect, {
 });
 s.addText('メインAIが1つの答えに', {
   x: ANS_X, y: CY - 0.55, w: 2.93, h: 0.30, margin: 0,
-  fontFace: JP, fontSize: 14, bold: true, color: C.paper, align: 'center',
+  fontFace: JP, fontSize: 14, bold: true, color: C.ink, align: 'center',
 });
 s.addText('受け取るのは数行の要約だけ', {
   x: ANS_X, y: CY - 0.20, w: 2.93, h: 0.24, margin: 0,
@@ -196,7 +198,7 @@ s.addText('→ あなたへ返答', {
 /* --------------------------------------------------------------- caption */
 s.addText('会議で部長が3人の担当に仕事を振り、上がってきた報告だけをまとめる——サブエージェントの動きは、それと同じです。', {
   x: 0.55, y: 5.18, w: 12.23, h: 0.28, margin: 0,
-  fontFace: JP, fontSize: 10.5, color: C.muted, valign: 'middle',
+  fontFace: JP, fontSize: 10.5, color: C.body, valign: 'middle',
 });
 
 /* ------------------------------------------------------------- takeaways */
@@ -209,15 +211,15 @@ points.forEach((p, i) => {
   const x = 0.55 + i * 4.14;
   s.addShape(pres.ShapeType.roundRect, {
     x, y: 5.62, w: 3.95, h: 1.00, rectRadius: 0.06,
-    fill: { color: '18325B' }, line: { color: C.zoneLn, width: 1 },
+    fill: { color: C.zone }, line: { color: C.zoneLn, width: 1 },
   });
   s.addText([
     { text: p.n, options: { fontFace: UI, fontSize: 10, color: C.orange, bold: true } },
-    { text: '   ' + p.t, options: { fontFace: JP, fontSize: 13, color: C.paper, bold: true } },
+    { text: '   ' + p.t, options: { fontFace: JP, fontSize: 13, color: C.ink, bold: true } },
   ], { x: x + 0.22, y: 5.74, w: 3.55, h: 0.26, margin: 0, valign: 'middle' });
   s.addText(p.b, {
     x: x + 0.22, y: 6.02, w: 3.55, h: 0.48, margin: 0,
-    fontFace: JP, fontSize: 9.5, color: C.muted, lineSpacingMultiple: 1.25,
+    fontFace: JP, fontSize: 9.5, color: C.body, lineSpacingMultiple: 1.25,
   });
 });
 
