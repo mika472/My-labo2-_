@@ -40,13 +40,13 @@ Character reference, profile view. A 52-year-old Japanese woman, soft oval face,
 ## KF-04｜8歳（1982年）
 
 ```
-An 8-year-old Japanese girl, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, black bob with straight blunt bangs, thin frame, wearing a faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a 1982 Japanese danchi apartment, sliding paper screen door, old bookshelf, late afternoon sunlight slanting through the window, dust floating in the air. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
+An 8-year-old Japanese girl, soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin, black bob with straight blunt bangs, thin frame, wearing a faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a privately owned early-1980s Japanese concrete condominium apartment — not public housing, but the modest, decently kept home of a white-collar family — with a sliding paper screen door and an old bookshelf, late afternoon sunlight slanting through the window, dust floating in the air. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
 ```
 
 ## KF-05｜13歳（1987年）
 
 ```
-A 13-year-old Japanese girl, the same face as the 8-year-old reference: soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin. Black hair in a low ponytail, navy sailor-collar school uniform, slightly harder and more closed-off expression. Sitting at the same wooden study desk in the same six-tatami danchi room, dusk light, the room slightly emptier than before. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
+A 13-year-old Japanese girl, the same face as the 8-year-old reference: soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin. Black hair in a low ponytail, navy sailor-collar school uniform, slightly harder and more closed-off expression. Sitting at the same wooden study desk in the same six-tatami condominium room, dusk light, the room slightly emptier than before. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
 ```
 
 ## KF-06｜17歳・高校生
@@ -125,7 +125,7 @@ Slow push-in to a medium close-up. Her smile fades. She lowers her eyes once, th
 
 画像
 ```
-An 8-year-old Japanese girl, the same face as the adult reference: soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin. Black bob with straight blunt bangs, faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a 1982 Japanese danchi apartment, late afternoon sunlight slanting through the window, dust floating in the air. Close-up, three-quarter view, the head occupying the same portion of the frame as the previous adult close-up. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
+An 8-year-old Japanese girl, the same face as the adult reference: soft oval face, straight nose, double eyelids, warm dark-brown eyes with slightly downturned outer corners, small mouth, fair skin. Black bob with straight blunt bangs, faded pink sweatshirt. Sitting at a wooden study desk in a six-tatami room of a privately owned early-1980s Japanese concrete condominium apartment — not public housing, but the modest, decently kept home of a white-collar family — late afternoon sunlight slanting through the window, dust floating in the air. Close-up, three-quarter view, the head occupying the same portion of the frame as the previous adult close-up. Photorealistic cinematic film still, shallow depth of field, muted warm color grade, natural film grain, vertical 9:16.
 ```
 
 動画（6秒）
@@ -151,7 +151,7 @@ The small hand opens the drawer, takes out the folded paper, unfolds it, adds a 
 
 画像
 ```
-The same 8-year-old Japanese girl with a black blunt-banged bob and faded pink sweatshirt, in the same six-tatami danchi room at night, turned toward a closed sliding paper screen door, her hand still resting on the just-closed desk drawer. A faint red light sweeps across the paper screen behind her. Single dim ceiling bulb. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
+The same 8-year-old Japanese girl with a black blunt-banged bob and faded pink sweatshirt, in the same six-tatami condominium room at night, turned toward a closed sliding paper screen door, her hand still resting on the just-closed desk drawer. A faint red light sweeps across the paper screen behind her. Single dim ceiling bulb. Photorealistic cinematic film still, shallow depth of field, muted color grade, natural film grain, vertical 9:16.
 ```
 
 動画（6秒）
@@ -178,7 +178,7 @@ She turns her head toward the door and holds still. A red light sweeps slowly ac
 | 0–3 | 銀座で23年。ビルを一棟持ち、七つの事業を経営する女性がいる。 | 銀座28年／一棟のビル、七つの事業 |
 | 3–7 | 52歳。彼女を成功者と呼ぶ人は、多い。 | 52歳。成功者と呼ばれる |
 | 7–11 | けれど彼女は、そう呼ばれるたびに、あるものを思い出すという。 | けれど、彼女は |
-| 11–17 | 昭和の団地の、六畳の子ども部屋。／小学2年生だった彼女が、学習机の引き出しに入れていたもの。 | 8歳 |
+| 11–17 | 昭和のマンションの、六畳の子ども部屋。／小学2年生だった彼女が、学習机の引き出しに入れていたもの。 | 8歳 |
 | 17–24 | 自分で書いた、遺書だった。／彼女はときどきそれを書き直しては、また引き出しにしまっていた。 | 遺書 |
 | 24–30 | なぜ8歳の子どもが、遺書を書いたのか。／その答えは、彼女の家にあった。 | 次回：警察が来る家 |
 
